@@ -1,6 +1,6 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "release_date": "2026-04-14",
-  "notes": "- 隐藏 AI 行情分析入口（付费版将开放）\n- 隐藏版本检查 URL 输入框，更新链接内置到包中\n- 修复老用户「请求失败」：后端自动回退到包内硬编码的更新源",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.4/TorchPriceTracker-1.0.4.zip"
+  "notes": "- 盯盘信号流浮窗数据联动全面修复：信号项统一合并全市场字段（t15/1h/6h/更新时间/库存等），浮窗与表格数据一致\n- 重构代码：去掉碎片 fallback，单一数据源\n- 首次加载保证 mktItems 就绪，信号初次显示也不缺字段",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.5/TorchPriceTracker-1.0.5.zip"
 }
