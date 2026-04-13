@@ -1,6 +1,6 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "release_date": "2026-04-14",
-  "notes": "- 修复一键覆盖更新卡「正在重启」：update.bat 在 DETACHED_PROCESS 无控制台时 timeout 命令直接失败，改用 ping 等待；并将 bat 启动方式改为 CREATE_NEW_CONSOLE，用户能看到短暂的「正在更新」窗口\n- bat 加入 errorlevel 检查：解压失败时保留 zip 和 bat 方便排障，不再静默失败",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.9/TorchPriceTracker-1.0.9.zip"
+  "notes": "- 再修一键更新：移除 update.bat 里的 chcp 65001（bat 以 GBK 存盘，切到 UTF-8 后中文路径解读错误导致 start 找不到 exe，表现为\"卡在正在重启\"）\n- 所有 bat 日志改为英文，回避编码坑\n- 与 v1.0.9 的 timeout→ping、新控制台修复叠加后，一键覆盖重启链路闭环",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.10/TorchPriceTracker-1.0.10.zip"
 }
