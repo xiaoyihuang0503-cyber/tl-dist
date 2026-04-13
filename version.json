@@ -1,6 +1,6 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "release_date": "2026-04-14",
-  "notes": "- 仅版本号递增：用于验证从 v1.0.10 触发的一键覆盖重启链路是否彻底跑通\n- 预期：点「一键更新」→ 下载 → 确认 → 弹出英文 cmd 窗口「Updating, please wait...」 → 2 秒后自动重启为 1.0.11",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.11/TorchPriceTracker-1.0.11.zip"
+  "notes": "- 一键更新收尾修复：bat 解压后再等 3 秒才启动新 exe，避免 PyInstaller _MEI 临时目录未释放导致的 \"Failed to load Python DLL\" 偶发错误\n- check_update 拼接时间戳绕过 Fastly/浏览器缓存，版本信息实时刷新\n- 至此一键覆盖重启链路已完整闭环（1.0.7→1.0.8 banner接通，1.0.9 timeout修复，1.0.10 GBK编码修复，1.0.12 DLL 竞态修复）",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.12/TorchPriceTracker-1.0.12.zip"
 }
