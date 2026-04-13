@@ -1,6 +1,6 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "release_date": "2026-04-14",
-  "notes": "- 顶部更新横幅改为一键覆盖重启：点「一键更新」→ 后台下载 → 确认后自动解压覆盖并重启 exe，无需离开应用\n- 开发模式降级：未打包时自动 fallback 到浏览器手动下载\n- 下载失败/取消后按钮可重试，不会卡死",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.7/TorchPriceTracker-1.0.7.zip"
+  "notes": "- 版本号递增（用于验证 v1.0.7 顶部横幅的一键覆盖重启流程）\n- 本次升级建议从 1.0.7 触发，体验从「一键更新 → 下载中 → 确认重启 → 自动覆盖」的完整闭环",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.8/TorchPriceTracker-1.0.8.zip"
 }
