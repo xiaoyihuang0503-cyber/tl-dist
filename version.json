@@ -1,6 +1,6 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "release_date": "2026-04-14",
-  "notes": "- 再修一键更新：移除 update.bat 里的 chcp 65001（bat 以 GBK 存盘，切到 UTF-8 后中文路径解读错误导致 start 找不到 exe，表现为\"卡在正在重启\"）\n- 所有 bat 日志改为英文，回避编码坑\n- 与 v1.0.9 的 timeout→ping、新控制台修复叠加后，一键覆盖重启链路闭环",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.10/TorchPriceTracker-1.0.10.zip"
+  "notes": "- 仅版本号递增：用于验证从 v1.0.10 触发的一键覆盖重启链路是否彻底跑通\n- 预期：点「一键更新」→ 下载 → 确认 → 弹出英文 cmd 窗口「Updating, please wait...」 → 2 秒后自动重启为 1.0.11",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.11/TorchPriceTracker-1.0.11.zip"
 }
