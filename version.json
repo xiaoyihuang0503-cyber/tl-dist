@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "release_date": "2026-04-13",
+  "notes": "- 初始发布\n- 全市场行情 + 我的记录 + 谱系监控\n- 缺货预警（3 档灵敏度）\n- 赛季开荒模式（前 7 天自动高亮）",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.0/TorchPriceTracker-1.0.0.zip"
+}
