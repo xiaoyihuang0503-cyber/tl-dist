@@ -1,6 +1,6 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "release_date": "2026-04-14",
-  "notes": "- 盯盘信号流浮窗数据联动全面修复：信号项统一合并全市场字段（t15/1h/6h/更新时间/库存等），浮窗与表格数据一致\n- 重构代码：去掉碎片 fallback，单一数据源\n- 首次加载保证 mktItems 就绪，信号初次显示也不缺字段",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.5/TorchPriceTracker-1.0.5.zip"
+  "notes": "- 新增 3 节点激活流水线：发现游戏日志 → 游戏在线中 → 交易行激活，每步动态高亮并指引用户操作\n- 激活完成后收起为绿色迷你状态条，不再占版面\n- 后端 /api/status 增加 log_exists / log_fresh 字段，区分\"日志缺失\" 与 \"游戏离线\" 两种未激活场景",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.6/TorchPriceTracker-1.0.6.zip"
 }
