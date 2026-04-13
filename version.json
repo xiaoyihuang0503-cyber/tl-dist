@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "release_date": "2026-04-14",
-  "notes": "- 启动自动检查新版本，顶部绿色横幅提醒\n- 「本版本不再提示」按版本号记忆，不打扰",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.2/TorchPriceTracker-1.0.2.zip"
+  "notes": "- 修复盯盘信号流点击物品浮窗无价格曲线（信号项缺 t15，前端 fallback 到全市场列表补齐）",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.3/TorchPriceTracker-1.0.3.zip"
 }
