@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "release_date": "2026-04-14",
-  "notes": "- 修复 6 小时价格走势「暂无历史数据」（读错了快照表）\n- 走势点位上限从 100 提到 500，6h 视图更密",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.1/TorchPriceTracker-1.0.1.zip"
+  "notes": "- 启动自动检查新版本，顶部绿色横幅提醒\n- 「本版本不再提示」按版本号记忆，不打扰",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.2/TorchPriceTracker-1.0.2.zip"
 }
