@@ -1,6 +1,6 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "release_date": "2026-04-14",
-  "notes": "- 新增 3 节点激活流水线：发现游戏日志 → 游戏在线中 → 交易行激活，每步动态高亮并指引用户操作\n- 激活完成后收起为绿色迷你状态条，不再占版面\n- 后端 /api/status 增加 log_exists / log_fresh 字段，区分\"日志缺失\" 与 \"游戏离线\" 两种未激活场景",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.6/TorchPriceTracker-1.0.6.zip"
+  "notes": "- 顶部更新横幅改为一键覆盖重启：点「一键更新」→ 后台下载 → 确认后自动解压覆盖并重启 exe，无需离开应用\n- 开发模式降级：未打包时自动 fallback 到浏览器手动下载\n- 下载失败/取消后按钮可重试，不会卡死",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.7/TorchPriceTracker-1.0.7.zip"
 }
