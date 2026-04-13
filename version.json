@@ -1,6 +1,6 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "release_date": "2026-04-14",
-  "notes": "- 版本号递增（用于验证 v1.0.7 顶部横幅的一键覆盖重启流程）\n- 本次升级建议从 1.0.7 触发，体验从「一键更新 → 下载中 → 确认重启 → 自动覆盖」的完整闭环",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.8/TorchPriceTracker-1.0.8.zip"
+  "notes": "- 修复一键覆盖更新卡「正在重启」：update.bat 在 DETACHED_PROCESS 无控制台时 timeout 命令直接失败，改用 ping 等待；并将 bat 启动方式改为 CREATE_NEW_CONSOLE，用户能看到短暂的「正在更新」窗口\n- bat 加入 errorlevel 检查：解压失败时保留 zip 和 bat 方便排障，不再静默失败",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.9/TorchPriceTracker-1.0.9.zip"
 }
