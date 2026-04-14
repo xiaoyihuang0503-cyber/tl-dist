@@ -1,6 +1,6 @@
 {
-  "version": "1.0.20",
+  "version": "1.0.21",
   "release_date": "2026-04-15",
-  "notes": "- 行情接口切到自建 Worker：900 用户不再各自打 ETor，改由 Worker 统一代理 + KV 缓存 2 分钟，流量降至 1/900，避免被 ETor 封禁\n- 启用匿名遥测回传：本地攒的事件队列将自动上报到自建数据管道（可在设置里关闭）\n- 完全尊重隐私：遥测只含查价事件和匿名 client_id，不含任何身份信息",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.20/TorchPriceTracker-1.0.20.zip"
+  "notes": "紧急修复：ETor 数据源已被对方投毒（返回全 price=1 或签名值 710421059），客户端加毒数据检测并拒收，避免污染本地历史。\n启动时自动清理 1.0.20 期间灌进来的毒数据。\n行情暂时不可用，正在紧急搭建独立数据源，预计近期恢复。",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.21/TorchPriceTracker-1.0.21.zip"
 }
