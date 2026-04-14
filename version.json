@@ -1,6 +1,6 @@
 {
-  "version": "1.0.15",
+  "version": "1.0.17",
   "release_date": "2026-04-14",
-  "notes": "- 修复首启浏览器先弹「无法连接」刷新才 OK：launcher 改用 socket 轮询端口 Ready 再开浏览器（最多等 30 秒）\n- 根治慢机器/杀软扫描拖慢 _MEI 解压导致的启动竞态",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.15/TorchPriceTracker-1.0.15.zip"
+  "notes": "修复盯盘信号流点击物品浮窗无价格曲线（信号项缺 t15，前端 fallback 到全市场列表补齐）",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.17/TorchPriceTracker-1.0.17.zip"
 }
