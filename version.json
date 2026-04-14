@@ -1,6 +1,6 @@
 {
-  "version": "1.0.19",
-  "release_date": "2026-04-14",
-  "notes": "- 修复物品详情浮窗「历史最低/最高」与信号浮窗「6H 最低/最高」对不上：统一用 API 的 6h t15 序列做数据源\n- 修复快照列表一排相同价格刷屏：相邻同价合并显示为一条，带「×N 条 · 持续 M 分钟」标签\n- 根治自更新/冷启动弹「Failed to load Python DLL」：runtime_tmpdir 固定到 AppData 避开 Defender 扫描、关闭 UPX 降低误判",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.19/TorchPriceTracker-1.0.19.zip"
+  "version": "1.0.20",
+  "release_date": "2026-04-15",
+  "notes": "- 行情接口切到自建 Worker：900 用户不再各自打 ETor，改由 Worker 统一代理 + KV 缓存 2 分钟，流量降至 1/900，避免被 ETor 封禁\n- 启用匿名遥测回传：本地攒的事件队列将自动上报到自建数据管道（可在设置里关闭）\n- 完全尊重隐私：遥测只含查价事件和匿名 client_id，不含任何身份信息",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.20/TorchPriceTracker-1.0.20.zip"
 }
