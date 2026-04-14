@@ -1,6 +1,6 @@
 {
-  "version": "1.0.23",
+  "version": "1.0.24",
   "release_date": "2026-04-15",
-  "notes": "🏆 全新功能：BD 参考库（赛季 1401 开荒前发）\n- 25000+ 顶级玩家完整配装参考（装备/技能/被动/契灵/天赋）\n- 按职业筛选 · 按 DPS 排序 · 一键查价跳转\n- 自动从本地游戏缓存扫描并贡献你看过的榜单数据（匿名）\n- 新赛季开服后排行榜数据将由全体用户共同重建\n\n🔥 首页开荒倒计时：2026-04-17 10:00 新赛季 1401\n\n⚙️ 技术改动：\n- 支持多赛季 BD 存储（1201/1301/1401 同步保留）\n- 启动 60 秒后自动扫描 HeroRanking 文件变化并批量上传（差分 + 去重）",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.23/TorchPriceTracker-1.0.23.zip"
+  "notes": "紧急修正：1.0.23 里 BD 库职业名我瞎编了（误把 HeroId 映射成错误的职业名）。1.0.24 改为**只显示 HeroId 数字**，不再装懂。后续补真实映射时再填。抱歉。",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.24/TorchPriceTracker-1.0.24.zip"
 }
