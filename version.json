@@ -1,6 +1,6 @@
 {
-  "version": "1.0.13",
+  "version": "1.0.14",
   "release_date": "2026-04-14",
-  "notes": "- 一键更新根治 DLL 竞态：bat 改用 tasklist 轮询旧 PID 彻底退出（最多 30s）再解压，取代 1.0.12 的拍脑袋 sleep 3 秒\n- 无论杀软扫描慢/机器卡/_MEI 释放慢，都能稳定衔接到新 exe 启动\n- 注意：1.0.11 及更早版本的 bat 不带此修复，无法通过一键更新升到 1.0.13，需手动下载 zip 解压一次；从 1.0.13 起后续一键更新全部稳定",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.13/TorchPriceTracker-1.0.13.zip"
+  "notes": "- UI 改版：⚙ 设置移到右上角齿轮按钮，告别 tab 栏最后一项找不到的尴尬\n- 免责声明置顶到设置页第一栏，大卡片展示 + 一键重新弹出同意框\n- 修复手机扫码打不开：新增「🔥 防火墙放行」按钮（一键 UAC 授权 netsh 添加 5678 入站规则），进入设置页自动检测规则状态\n- 注意：从 1.0.13 点一键更新可验证 tasklist PID 轮询修复是否根治 DLL 竞态",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.14/TorchPriceTracker-1.0.14.zip"
 }
