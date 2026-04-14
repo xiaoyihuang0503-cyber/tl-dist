@@ -1,6 +1,6 @@
 {
-  "version": "1.0.17",
+  "version": "1.0.18",
   "release_date": "2026-04-14",
-  "notes": "修复盯盘信号流点击物品浮窗无价格曲线（信号项缺 t15，前端 fallback 到全市场列表补齐）",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.17/TorchPriceTracker-1.0.17.zip"
+  "notes": "紧急修复：行情接口全部不可用「br decode unavailable」。原因是 Accept-Encoding 声明了 brotli，但 Python 标准库不会解 br，服务端返回 br 压缩时直接崩。修复后只声明 gzip/deflate。",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.18/TorchPriceTracker-1.0.18.zip"
 }
