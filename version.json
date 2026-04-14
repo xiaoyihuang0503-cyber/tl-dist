@@ -1,6 +1,6 @@
 {
-  "version": "1.0.21",
+  "version": "1.0.22",
   "release_date": "2026-04-15",
-  "notes": "紧急修复：ETor 数据源已被对方投毒（返回全 price=1 或签名值 710421059），客户端加毒数据检测并拒收，避免污染本地历史。\n启动时自动清理 1.0.20 期间灌进来的毒数据。\n行情暂时不可用，正在紧急搭建独立数据源，预计近期恢复。",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.21/TorchPriceTracker-1.0.21.zip"
+  "notes": "重大升级：行情数据源彻底切换为「众包自有数据」。\n- 所有挂单价格来自全体用户在游戏里真实查价的汇总（匿名），不再依赖任何第三方 API\n- ETor 数据投毒事件后，我们用 6 小时搭建了独立数据管道\n- 物品覆盖率会随着用户量增加而提升：越多人查价，数据越全\n- 界面会显示「众包行情 · N 件」，让你知道数据来自哪\n\n如果你想帮助社区，多在游戏里搜索物品 —— 你的每次查价都会匿名贡献给全体用户的市场视图。",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.22/TorchPriceTracker-1.0.22.zip"
 }
