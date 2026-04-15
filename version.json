@@ -1,6 +1,6 @@
 {
-  "version": "1.0.26",
+  "version": "1.0.33",
   "release_date": "2026-04-15",
-  "notes": "优化开服准备：1401 赛季倒计时 banner · 启动自动监听交易行数据 · 行情刷新逻辑优化",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.26/TorchPriceTracker-1.0.26.zip"
+  "notes": "⚔️ 刷图战报：自动识别副本 session + 每件掉落估值 + 左下浮窗\n🎒 游戏内背包实时估值（资产 tab 顶部新增）\n💰 查价立刻联动市场行情（LIVE 标签）\n📦 全市场行情展示全部 1808 件物品（没价的显示暂无价）\n📋 挂单添加成功弹窗 + 1 分钟上架倒计时\n🪵 日志状态横幅：游戏未登录时更明显提示",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.33/TorchPriceTracker-1.0.33.zip"
 }
