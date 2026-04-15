@@ -1,6 +1,6 @@
 {
-  "version": "1.0.25",
+  "version": "1.0.26",
   "release_date": "2026-04-15",
-  "notes": "文案调整：把\"众包\"这种技术词去掉，改成\"实时行情\"/\"全服查价汇总\"等人话。功能无变化。",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.25/TorchPriceTracker-1.0.25.zip"
+  "notes": "优化开服准备：1401 赛季倒计时 banner · 启动自动监听交易行数据 · 行情刷新逻辑优化",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.26/TorchPriceTracker-1.0.26.zip"
 }
