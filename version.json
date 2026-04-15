@@ -1,6 +1,6 @@
 {
-  "version": "1.0.34",
-  "release_date": "2026-04-15",
-  "notes": "🔧 自更新自检：bat 启动后检测端口 5678 确认 Flask 真活了，失败自动重试 3 次，根治老的「更新后打不开」DLL race 卡死\n\n附带功能累积：\n⚔️ 刷图战报：自动识别副本 session + 每件掉落估值 + 左下浮窗\n🎒 游戏内背包实时估值（资产 tab 顶部）\n💰 查价立刻联动市场行情（LIVE 标签）\n📦 全市场行情展示全部 1808 件物品（没价的显示暂无价）\n📋 挂单添加成功弹窗 + 1 分钟上架倒计时\n🪵 日志状态横幅提醒",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.34/TorchPriceTracker-1.0.34.zip"
+  "version": "1.0.38",
+  "release_date": "2026-04-16",
+  "notes": "🔥 顶栏新增火价 chip：实时初火/RMB 汇率（每天 03:00 更新）+ 涨跌\n📦 首启自动灌入 1824 条种子价（覆盖物品库 97.5%），装新版瞬间看到全市场行情\n🏗 onedir 架构根治自更新 DLL race（继承 1.0.35）\n🔒 种子数据加密分发，防扒\n🛡 Worker 防爬升级 + 新增火价端点",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.38/TorchPriceTracker-1.0.38.zip"
 }
