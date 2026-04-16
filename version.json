@@ -1,6 +1,6 @@
 {
-  "version": "1.0.60",
+  "version": "1.0.61",
   "release_date": "2026-04-16",
-  "notes": "🔧 重大修复：内置 VC++ 运行时 · 解决部分电脑启动失败问题\n📖 使用说明 PDF 置顶启动排查章节\n🧰 附带启动诊断.bat · 启动失败双击自助排查\n🌐 代理/VPN 环境稳定连接\n🛡 动态会话密钥 + 关键字符串运行时解扰\n🔍 任何地方点装备都能看详情 · 统一浮层",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.60/TorchWallStreet-1.0.60.zip"
+  "notes": "🔧 重大修复：解压失败问题 · 砍掉冗余依赖，路径长度降 45%\n🧰 内置 VC++ 运行时 · 解决部分电脑启动失败\n📖 使用说明 PDF 置顶启动排查章节\n🧪 附带启动诊断.bat · 启动失败双击自助排查\n🌐 代理/VPN 环境稳定连接\n🛡 动态会话密钥 + 关键字符串运行时解扰",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.61/TorchWallStreet-1.0.61.zip"
 }
