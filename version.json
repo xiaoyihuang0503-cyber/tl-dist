@@ -1,6 +1,6 @@
 {
-  "version": "1.1.3",
+  "version": "1.1.4",
   "release_date": "2026-04-17",
-  "notes": "🚑 热修 1.1.2 JS 崩溃\n1.1.2 的更新弹窗代码字符串跨行导致前台 JS 崩溃（倒计时消失、数据不加载、点击无响应）\n本版本立即恢复所有交互功能",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.3/TorchWallStreet-1.1.3.zip"
+  "notes": "📦 种子价扩展 · 新用户首启就有完整涨跌+6H 走势\n1838 条种子价全部带 t15（24 个价格点）\n新电脑首启打开网页即可看到完整行情表格\n不用等 Worker 同步 2 分钟空白期",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.4/TorchWallStreet-1.1.4.zip"
 }
