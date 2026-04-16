@@ -1,6 +1,6 @@
 {
-  "version": "1.1.2",
+  "version": "1.1.3",
   "release_date": "2026-04-17",
-  "notes": "🛡️ 兼容 360 / Defender 的更新流程\n🔧 xcopy → PowerShell Copy-Item，不再触发「修改关键程序文件」误报\n💬 应用更新弹窗加提示：杀软拦截时告诉用户选「允许」\n⬇️ 新增「手动下载」按钮：一键更新失败时的备选通道",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.2/TorchWallStreet-1.1.2.zip"
+  "notes": "🚑 热修 1.1.2 JS 崩溃\n1.1.2 的更新弹窗代码字符串跨行导致前台 JS 崩溃（倒计时消失、数据不加载、点击无响应）\n本版本立即恢复所有交互功能",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.3/TorchWallStreet-1.1.3.zip"
 }
