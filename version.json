@@ -1,6 +1,6 @@
 {
-  "version": "1.0.48",
+  "version": "1.0.49",
   "release_date": "2026-04-16",
-  "notes": "🗺 刷图战报识别中文地图名 · 自动映射 82 地图 + 84 UI 视图\n📦 新增数据字典 tab · 支持导入导出 JSON\n🏰 秘境层数识别 · 显示「秘境 L10」标签\n🎁 宝箱掉落单独统计 · 与怪物掉落分类\n📈 新增 1h / 3h / 6h 多时段涨跌\n🌙 暗黑模式（默认）+ macOS Dock + 1800+ 件全市场同步",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.48/TorchWallStreet-1.0.48.zip"
+  "notes": "📈 全市场行情表格新增 3h 涨跌列 · 1h / 3h / 6h 多时段一目了然\n🗺 刷图战报识别中文地图名\n📦 数据字典 tab · 支持导入导出\n🏰 秘境层数识别 · 🎁 宝箱掉落单独统计\n🌙 暗黑模式 + macOS Dock + 1800+ 件全市场",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.49/TorchWallStreet-1.0.49.zip"
 }
