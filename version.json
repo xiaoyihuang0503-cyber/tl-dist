@@ -1,6 +1,6 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "release_date": "2026-04-17",
-  "notes": "🩹 老用户 t15 补齐\n1.1.4 用 INSERT OR IGNORE 导入种子价，已存在的 gold_id 记录被跳过，导致老用户全市场涨跌一直空。\n本版本：对 t15 为空的老记录强制 UPDATE 补 t15。\n新老用户升级后都能看到涨跌和 6H 走势。",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.5/TorchWallStreet-1.1.5.zip"
+  "notes": "🌍 国内访问稳定性重大改善 · jsDelivr CDN 镜像\nGitHub Actions 每 5 分钟从 Worker 同步 prices.json 到 tl-dist 仓库，\n客户端优先拉 jsDelivr（国内走阿里云节点 99%+ 可达），\n依次降级 fastly → raw → Cloudflare Worker。\n没梯子的用户也能拿到完整行情。",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.6/TorchWallStreet-1.1.6.zip"
 }
