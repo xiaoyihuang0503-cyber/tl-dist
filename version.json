@@ -1,6 +1,6 @@
 {
-  "version": "1.0.42",
+  "version": "1.0.43",
   "release_date": "2026-04-16",
-  "notes": "🌙 暗黑模式（默认）+ 浅色模式一键切换\n📊 后台行情深度同步：1525 件物品实时入库\n🖥 macOS Dock 底栏 + 双层 SVG 图标\n🔥 顶部 banner：新赛季倒计时 + slogan\n🔤 全局字号放大\n💬 状态提示右下角浮窗\n🔧 修复自动更新后仍显示旧版的问题\n🎨 全新 logo 深浅双模式",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.42/TorchPriceTracker-1.0.42.zip"
+  "notes": "🔧 修复行情价格显示异常（protobuf 解析纠正）\n🔧 修复自动更新后仍显示旧版的问题\n🌙 暗黑模式 + Dock 底栏 + 火价 chip + 种子价 1824 条",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.43/TorchPriceTracker-1.0.43.zip"
 }
