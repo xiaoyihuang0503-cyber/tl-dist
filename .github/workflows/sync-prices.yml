@@ -20,16 +20,22 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Fetch prices from Cloudflare Worker
+      - name: Fetch prices + fire_price from Cloudflare Worker
         run: |
           set -e
-          # Worker 要求 UA 以 TorchPriceTracker/ 开头 + X-Client-Id 32-128 hex + X-Version >= 1.0.16
+          HDR_UA='User-Agent: TorchPriceTracker/1.1.7-mirror'
+          HDR_CID='X-Client-Id: ff00112233445566778899aabbccddeeff00112233445566778899aabbccddee'
+          HDR_VER='X-Version: 1.1.7'
+          # 1) 行情全量
           curl -sS --max-time 30 --retry 3 --retry-delay 2 \
-            -H 'User-Agent: TorchPriceTracker/1.1.6-mirror' \
-            -H 'X-Client-Id: ff00112233445566778899aabbccddeeff00112233445566778899aabbccddee' \
-            -H 'X-Version: 1.1.6' \
+            -H "$HDR_UA" -H "$HDR_CID" -H "$HDR_VER" \
             'https://tl-worker.hyx920503.workers.dev/prices?season=1301' \
             -o prices.new.json
+          # 2) 火价（初火 → 人民币汇率，每天 03:00 更新一次，镜像保 30 天序列）
+          curl -sS --max-time 30 --retry 3 --retry-delay 2 \
+            -H "$HDR_UA" -H "$HDR_CID" -H "$HDR_VER" \
+            'https://tl-worker.hyx920503.workers.dev/fireprice?season=1301&platform=2&days=30' \
+            -o fire_price.new.json || true
           SIZE=$(wc -c < prices.new.json)
           echo "fetched: $SIZE bytes"
           if [ "$SIZE" -lt 1000 ]; then
@@ -46,13 +52,19 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           mv prices.new.json prices.json
-          # 先 add（处理未跟踪文件），再用 --cached 对比 index vs HEAD
+          # 火价可选（只在成功下载且有效时更新）
+          if [ -s fire_price.new.json ] && python -c "import json; d=json.load(open('fire_price.new.json')); assert d.get('ok')" 2>/dev/null; then
+            mv fire_price.new.json fire_price.json
+            git add fire_price.json
+          else
+            rm -f fire_price.new.json
+          fi
           git add prices.json
           if git diff --cached --quiet; then
             echo "no change, skipping commit"
             echo "changed=false" >> $GITHUB_OUTPUT
           else
-            git commit -m "sync: prices $(date -u +%FT%TZ)"
+            git commit -m "sync: $(date -u +%FT%TZ)"
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
@@ -60,9 +72,11 @@ jobs:
       - name: Purge jsDelivr cache
         if: steps.commit.outputs.changed == 'true'
         run: |
-          # jsDelivr purge API 免费 + 免鉴权，推完 1 分钟内全球 CDN 生效
-          curl -sS -X POST "https://purge.jsdelivr.net/gh/xiaoyihuang0503-cyber/tl-dist@main/prices.json" | head -c 300 || true
-          echo ""
+          # jsDelivr purge 免费+免鉴权，推完 1 分钟内全球 CDN 生效
+          for path in prices.json fire_price.json; do
+            curl -sS -X POST "https://purge.jsdelivr.net/gh/xiaoyihuang0503-cyber/tl-dist@main/$path" | head -c 200
+            echo ""
+          done
 
       - name: Verify endpoints
         if: steps.commit.outputs.changed == 'true'
