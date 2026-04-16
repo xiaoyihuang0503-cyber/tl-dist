@@ -1,6 +1,6 @@
 {
-  "version": "1.0.46",
+  "version": "1.0.47",
   "release_date": "2026-04-16",
-  "notes": "🌙 全新暗黑模式界面（默认）· 浅色一键切换\n🎨 macOS Dock 底栏 + 全新双层图标\n🔥 顶栏新赛季倒计时 + 金融感 slogan\n📊 全市场 1800+ 件行情深度同步\n💬 状态提示改右下角浮窗\n📖 使用说明同步更新新功能\n🏷 安装包采用品牌命名",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.46/TorchWallStreet-1.0.46.zip"
+  "notes": "📈 新增 1h / 3h / 6h 多时段涨跌显示\n🎯 价格精度优化，更准确反映市场波动\n🌙 暗黑模式（默认）· 浅色一键切换\n🎨 macOS Dock 底栏 + 全新双层图标\n🔥 顶栏新赛季倒计时 + 金融感 slogan\n📊 全市场 1800+ 件行情深度同步",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.47/TorchWallStreet-1.0.47.zip"
 }
