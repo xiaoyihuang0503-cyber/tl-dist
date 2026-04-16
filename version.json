@@ -1,6 +1,6 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "release_date": "2026-04-17",
-  "notes": "🚀 新电脑首启体验重构\n🔧 双击一次到位：单实例 fallback 等 Flask ready 再开浏览器（超时 30s → 90s）\n🔧 修复「无法访问此网站」：端口未就绪前不开浏览器\n🔧 启动立即拉行情：告别 2 分钟黑屏\n🔧 修复「20559 天前」异常：种子价时间戳自愈迁移\n🗺️ 刷图战报中文地图名识别（命中率 0% → 73%）",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.1/TorchWallStreet-1.1.1.zip"
+  "notes": "🛡️ 兼容 360 / Defender 的更新流程\n🔧 xcopy → PowerShell Copy-Item，不再触发「修改关键程序文件」误报\n💬 应用更新弹窗加提示：杀软拦截时告诉用户选「允许」\n⬇️ 新增「手动下载」按钮：一键更新失败时的备选通道",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.2/TorchWallStreet-1.1.2.zip"
 }
