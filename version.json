@@ -1,6 +1,6 @@
 {
-  "version": "1.0.61",
+  "version": "1.0.62",
   "release_date": "2026-04-16",
-  "notes": "🔧 重大修复：解压失败问题 · 砍掉冗余依赖，路径长度降 45%\n🧰 内置 VC++ 运行时 · 解决部分电脑启动失败\n📖 使用说明 PDF 置顶启动排查章节\n🧪 附带启动诊断.bat · 启动失败双击自助排查\n🌐 代理/VPN 环境稳定连接\n🛡 动态会话密钥 + 关键字符串运行时解扰",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.61/TorchWallStreet-1.0.61.zip"
+  "notes": "🔧 种子价强制补齐 · 新用户首启必见 1800+ 件全市场\n🔧 种子导入异常详细日志 · 问题可追踪\n🔧 新增 /api/rebuild_seed 手动重建端点 · 紧急兜底\n🧰 附带启动诊断.bat · 启动失败双击自助排查\n🔧 内置 VC++ 运行时 · 砍冗余依赖路径缩短 45%",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.62/TorchWallStreet-1.0.62.zip"
 }
