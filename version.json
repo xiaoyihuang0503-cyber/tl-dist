@@ -1,6 +1,6 @@
 {
-  "version": "1.0.38",
+  "version": "1.0.40",
   "release_date": "2026-04-16",
-  "notes": "🔥 顶栏新增火价 chip：实时初火/RMB 汇率（每天 03:00 更新）+ 涨跌\n📦 首启自动灌入 1824 条种子价（覆盖物品库 97.5%），装新版瞬间看到全市场行情\n🏗 onedir 架构根治自更新 DLL race（继承 1.0.35）\n🔒 种子数据加密分发，防扒\n🛡 Worker 防爬升级 + 新增火价端点",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.38/TorchPriceTracker-1.0.38.zip"
+  "notes": "🌙 暗黑模式（默认）+ 浅色模式一键切换\n📊 后台行情深度同步：1525 件物品 t15 + 实时价格自动入库\n🖥 macOS Dock 风格底栏 + 双层 SVG 图标\n🔥 顶部 banner：新赛季倒计时 + slogan\n🔤 全局字号放大，阅读更清晰\n💬 状态提示改右下角浮窗，不再遮挡内容\n📦 种子价 1824 条 + 火价 chip + 防爬 Tier 1",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.40/TorchPriceTracker-1.0.40.zip"
 }
