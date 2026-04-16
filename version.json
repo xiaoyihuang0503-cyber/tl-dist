@@ -1,6 +1,6 @@
 {
-  "version": "1.1.6",
+  "version": "1.1.7",
   "release_date": "2026-04-17",
-  "notes": "🌍 国内访问稳定性重大改善 · jsDelivr CDN 镜像\nGitHub Actions 每 5 分钟从 Worker 同步 prices.json 到 tl-dist 仓库，\n客户端优先拉 jsDelivr（国内走阿里云节点 99%+ 可达），\n依次降级 fastly → raw → Cloudflare Worker。\n没梯子的用户也能拿到完整行情。",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.6/TorchWallStreet-1.1.6.zip"
+  "notes": "🔥 火价也走 jsDelivr 镜像\n1.1.6 修了行情接口，但火价（初火↔人民币汇率）还直连 Cloudflare Worker。\n本版本：GitHub Actions 同步镜像火价到 tl-dist，客户端多源 fallback。\n从此没梯子也能看到火价。",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.7/TorchWallStreet-1.1.7.zip"
 }
