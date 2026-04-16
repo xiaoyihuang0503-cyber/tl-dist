@@ -1,6 +1,6 @@
 {
-  "version": "1.0.53",
+  "version": "1.0.54",
   "release_date": "2026-04-16",
-  "notes": "🔔 提醒分级播报 · 紧急 2 分钟 / 高 10 分钟 / 中 30 分钟 / 低 60 分钟\n📋 通知中心显示全量历史（点右上铃铛）· 去重条目也保留\n🗺 刷图战报中文地图名 + 秘境层数 + 宝箱统计\n📈 全市场 1h / 3h / 6h 多时段涨跌\n📱 手机扫码访问优化 · 更新提醒响应更快\n🌙 暗黑模式 + macOS Dock + 1800+ 件全市场",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.53/TorchWallStreet-1.0.53.zip"
+  "notes": "🔍 任何地方点装备都能看详情 · 通知/挂单/库存/刷图战报 统一浮层\n🔔 提醒分级播报 · 紧急 2 分 / 高 10 分 / 中 30 分 / 低 60 分\n📋 通知中心显示全量历史 · 点条目直达详情\n🗺 刷图战报中文地图名 + 秘境层数 + 宝箱统计\n📈 全市场 1h / 3h / 6h 多时段涨跌\n🌙 暗黑模式 + macOS Dock + 1800+ 件全市场",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.54/TorchWallStreet-1.0.54.zip"
 }
