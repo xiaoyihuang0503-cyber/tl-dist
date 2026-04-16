@@ -1,6 +1,6 @@
 {
-  "version": "1.1.4",
+  "version": "1.1.5",
   "release_date": "2026-04-17",
-  "notes": "📦 种子价扩展 · 新用户首启就有完整涨跌+6H 走势\n1838 条种子价全部带 t15（24 个价格点）\n新电脑首启打开网页即可看到完整行情表格\n不用等 Worker 同步 2 分钟空白期",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.4/TorchWallStreet-1.1.4.zip"
+  "notes": "🩹 老用户 t15 补齐\n1.1.4 用 INSERT OR IGNORE 导入种子价，已存在的 gold_id 记录被跳过，导致老用户全市场涨跌一直空。\n本版本：对 t15 为空的老记录强制 UPDATE 补 t15。\n新老用户升级后都能看到涨跌和 6H 走势。",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.5/TorchWallStreet-1.1.5.zip"
 }
