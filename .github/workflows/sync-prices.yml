@@ -23,8 +23,11 @@ jobs:
       - name: Fetch prices from Cloudflare Worker
         run: |
           set -e
+          # Worker 要求 UA 以 TorchPriceTracker/ 开头 + X-Client-Id 32-128 hex + X-Version >= 1.0.16
           curl -sS --max-time 30 --retry 3 --retry-delay 2 \
-            -H 'User-Agent: tl-prices-syncer/1.0' \
+            -H 'User-Agent: TorchPriceTracker/1.1.6-mirror' \
+            -H 'X-Client-Id: ff00112233445566778899aabbccddeeff00112233445566778899aabbccddee' \
+            -H 'X-Version: 1.1.6' \
             'https://tl-worker.hyx920503.workers.dev/prices?season=1301' \
             -o prices.new.json
           SIZE=$(wc -c < prices.new.json)
