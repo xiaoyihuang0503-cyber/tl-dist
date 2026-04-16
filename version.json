@@ -1,6 +1,6 @@
 {
-  "version": "1.0.50",
+  "version": "1.0.51",
   "release_date": "2026-04-16",
-  "notes": "📱 手机扫码访问修复（Clash/VPN 环境下正确识别局域网 IP）\n📈 全市场 3h 涨跌列 · 1h / 3h / 6h 多时段\n🗺 刷图战报中文地图名 + 秘境层数 + 宝箱统计\n📦 数据字典 tab · 支持导入导出\n🌙 暗黑模式 + macOS Dock + 1800+ 件全市场",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.50/TorchWallStreet-1.0.50.zip"
+  "notes": "⚡ 更新提醒响应更快 · 自动每 30 分钟后台复查\n📱 手机扫码访问修复（Clash/VPN 环境）\n📈 全市场 3h 涨跌列\n🗺 刷图战报中文地图名 + 秘境层数 + 宝箱统计\n📦 数据字典 tab · 支持导入导出\n🌙 暗黑模式 + macOS Dock + 1800+ 件全市场",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.0.51/TorchWallStreet-1.0.51.zip"
 }
