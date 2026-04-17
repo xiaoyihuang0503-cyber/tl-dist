@@ -1,6 +1,6 @@
 {
-  "version": "1.1.8",
+  "version": "1.1.9",
   "release_date": "2026-04-17",
-  "notes": "⚡ 启动提速：2 分钟白屏 → 秒出\n🔧 种子价导入 1710×SQL → 2×executemany（实测 40ms）\n🔧 数据同步 timeout 20s→6s + 多源快速切换，最坏耗时 300s→30s\n🔧 智能代理：jsDelivr/raw 走系统代理更稳，workers.dev 绕代理防 fake-ip",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.8/TorchWallStreet-1.1.8.zip"
+  "notes": "📊 总身家只算背包库存，不再包含挂单金额",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.9/TorchWallStreet-1.1.9.zip"
 }
