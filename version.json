@@ -1,6 +1,6 @@
 {
-  "version": "1.1.12",
+  "version": "1.1.13",
   "release_date": "2026-04-17",
-  "notes": "✨ 优化整体加载速度与稳定性",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.12/TorchWallStreet-1.1.12.zip"
+  "notes": "✨ 优化资产页面体验",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.13/TorchWallStreet-1.1.13.zip"
 }
