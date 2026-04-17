@@ -1,6 +1,6 @@
 {
-  "version": "1.1.10",
+  "version": "1.1.11",
   "release_date": "2026-04-17",
-  "notes": "🔥 火价手动输入\n开荒期火价波动快，自动更新每日 03:00 一次跟不上。\n点火价旁 ✏️ 手动输入实时价格，优先级高于自动更新。\n输入 0 恢复自动模式。",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.10/TorchWallStreet-1.1.10.zip"
+  "notes": "🎒 背包页不再闪烁跳动\n有数据时不覆盖成空白，游戏 Reset 事件不触发白屏",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.11/TorchWallStreet-1.1.11.zip"
 }
