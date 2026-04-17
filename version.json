@@ -1,6 +1,6 @@
 {
   "version": "1.1.12",
   "release_date": "2026-04-17",
-  "notes": "⚡ 页面加载提速\nFlask 强制多线程：火价慢请求不再阻塞 banner/市场/设置\n火价 timeout 5s→3s，最坏等待 25s→15s",
+  "notes": "✨ 优化整体加载速度与稳定性",
   "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.12/TorchWallStreet-1.1.12.zip"
 }
