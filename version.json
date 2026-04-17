@@ -1,6 +1,6 @@
 {
-  "version": "1.1.9",
+  "version": "1.1.10",
   "release_date": "2026-04-17",
-  "notes": "📊 总身家只算背包库存，不再包含挂单金额",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.9/TorchWallStreet-1.1.9.zip"
+  "notes": "🔥 火价手动输入\n开荒期火价波动快，自动更新每日 03:00 一次跟不上。\n点火价旁 ✏️ 手动输入实时价格，优先级高于自动更新。\n输入 0 恢复自动模式。",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.1.10/TorchWallStreet-1.1.10.zip"
 }
