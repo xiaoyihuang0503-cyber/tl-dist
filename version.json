@@ -1,6 +1,6 @@
 {
-  "version": "1.3.2",
-  "release_date": "2026-04-18",
-  "notes": "✨ 优化用户体验",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.3.2/TorchPriceTracker-1.3.2.zip"
+  "version": "1.4.0",
+  "release_date": "2026-04-19",
+  "notes": "⚔ HUD 大升级：Boss 徽章 + 副本名/K层一目了然 · 📈 全市场股票视图 · 🎯 副本识别更聪明",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.0/TorchPriceTracker-1.4.0.zip"
 }
