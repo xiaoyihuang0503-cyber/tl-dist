@@ -1,0 +1,62 @@
+name: Sync Fire Price (交易猫 → tl-dist)
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # 每 10 分钟
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-fire-price
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Fetch fire price from 交易猫
+        run: python scripts/fetch_fire_price.py
+        timeout-minutes: 2
+
+      - name: Commit if changed
+        id: commit
+        run: |
+          set -e
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add fire_price_rmb.json
+          if git diff --cached --quiet; then
+            echo "no change"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "fire-price: $(date -u +%FT%TZ)"
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Sync to Gitee
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          git remote add gitee https://easiao08:${{ secrets.GITEE_TOKEN }}@gitee.com/easiao08/tl-dist.git 2>/dev/null || true
+          git push gitee main --force || echo "Gitee sync failed (non-fatal)"
+
+      - name: Purge CDN
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          curl -sS "https://purge.jsdelivr.net/gh/xiaoyihuang0503-cyber/tl-dist@main/fire_price_rmb.json" | head -c 100
+          echo ""
