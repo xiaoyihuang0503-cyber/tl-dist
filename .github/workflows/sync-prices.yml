@@ -78,11 +78,18 @@ jobs:
             echo ""
           done
 
+      - name: Sync to Gitee mirror
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          git remote add gitee https://easiao08:${{ secrets.GITEE_TOKEN }}@gitee.com/easiao08/tl-dist.git 2>/dev/null || true
+          git push gitee main --force 2>&1 | tail -3 || echo "Gitee sync failed (non-fatal)"
+
       - name: Verify endpoints
         if: steps.commit.outputs.changed == 'true'
         run: |
           sleep 15
           for url in \
+            "https://gitee.com/easiao08/tl-dist/raw/main/version.json" \
             "https://cdn.jsdelivr.net/gh/xiaoyihuang0503-cyber/tl-dist@main/prices.json" \
             "https://fastly.jsdelivr.net/gh/xiaoyihuang0503-cyber/tl-dist@main/prices.json" \
             "https://raw.githubusercontent.com/xiaoyihuang0503-cyber/tl-dist/main/prices.json"; do
