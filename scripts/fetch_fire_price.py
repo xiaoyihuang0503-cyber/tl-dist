@@ -24,24 +24,56 @@ async def fetch_fire_price():
         )
         page = await context.new_page()
 
-        # 拦截 API 响应
+        # 拦截所有 JSON 响应
         async def on_response(response):
             url = response.url
-            if 'getunifiedgoodslist' in url.lower() or 'goodslist' in url.lower():
+            ct = response.headers.get('content-type', '')
+            if response.status == 200 and ('json' in ct or 'mtop' in url.lower() or 'goodslist' in url.lower() or 'goods' in url.lower()):
                 try:
                     body = await response.text()
-                    if len(body) > 100:
+                    if len(body) > 200 and ('deliverComps' in body or 'unitPrices' in body or 'price' in body):
                         result['raw_responses'].append(body)
+                        print(f'[CAPTURED] {url[:100]} ({len(body)} bytes)')
                 except Exception:
                     pass
 
         page.on('response', on_response)
 
         try:
-            await page.goto(target_url, wait_until='networkidle', timeout=30000)
-            await asyncio.sleep(5)
+            print(f'Navigating to {target_url}')
+            await page.goto(target_url, wait_until='domcontentloaded', timeout=30000)
+            # 等待更长时间让 JS 加载完
+            await asyncio.sleep(8)
+            # 尝试滚动触发懒加载
+            await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+            await asyncio.sleep(3)
+            # 截图调试
+            await page.screenshot(path='/tmp/jym_debug.png')
+            print(f'Page title: {await page.title()}')
+            print(f'Captured {len(result["raw_responses"])} API responses')
         except Exception as e:
             print(f'Page load error: {e}', file=sys.stderr)
+
+        # 如果没拦截到 API，尝试直接从页面 HTML 提取
+        if not result['raw_responses']:
+            try:
+                html = await page.content()
+                # 交易猫的商品数据可能内嵌在 script 标签里
+                import re as _re
+                for m in _re.finditer(r'window\.__INITIAL_STATE__\s*=\s*({.*?});', html, _re.DOTALL):
+                    result['raw_responses'].append(m.group(1))
+                    print(f'[HTML EXTRACT] Found __INITIAL_STATE__ ({len(m.group(1))} bytes)')
+                # 也尝试从 DOM 直接提取价格
+                prices = await page.evaluate('''() => {
+                    const items = document.querySelectorAll('[class*="price"], [class*="goods"], [class*="item"]');
+                    return Array.from(items).slice(0, 20).map(el => el.textContent.trim()).filter(t => t.includes('游戏币') || t.includes('元'));
+                }''')
+                if prices:
+                    print(f'[DOM] Found {len(prices)} price elements')
+                    for p in prices[:5]:
+                        print(f'  {p[:100]}')
+            except Exception as e:
+                print(f'HTML extract error: {e}', file=sys.stderr)
 
         await browser.close()
 
