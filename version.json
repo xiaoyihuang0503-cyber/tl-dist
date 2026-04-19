@@ -1,6 +1,6 @@
 {
-  "version": "1.4.6",
+  "version": "1.4.7",
   "release_date": "2026-04-19",
-  "notes": "🎯 估值准度再升级：自动清理孤儿脏价格（蔽日 2000 等异常值）· 🛠️ 资产页新增「清空重识」按钮 · 物品悬停显示 × 剔除按钮 · 🗑 查价记录新增一键清空",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.6/TorchPriceTracker-1.4.6.zip"
+  "notes": "🚨 紧急修复：游戏最近改了日志格式，导致所有人「查价记录」空白、挂单参考价拿不到 LIVE 数据。本版完整适配新老格式，升级后游戏内查价立刻落盘。",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.7/TorchPriceTracker-1.4.7.zip"
 }
