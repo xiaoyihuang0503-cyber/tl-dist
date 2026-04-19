@@ -1,6 +1,6 @@
 {
-  "version": "1.4.8",
+  "version": "1.4.9",
   "release_date": "2026-04-19",
-  "notes": "🎯 全站价格数字统一：根治同一个物品在详情浮窗/挂单/查价记录显示 3 个不同价格的架构问题 · 新增绿色 LIVE / 蓝色 全服同步 数据源徽章，一眼看出数字从哪来",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.8/TorchPriceTracker-1.4.8.zip"
+  "notes": "🚀 客户端内实时更新推送：不用重启，开着工具就能秒收到新版本提示 · SSE 长连接 + 5 分钟轮询 + 窗口回焦立即检测 · 彻底绕过浏览器缓存",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.9/TorchPriceTracker-1.4.9.zip"
 }
