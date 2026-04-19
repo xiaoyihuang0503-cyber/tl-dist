@@ -1,6 +1,6 @@
 {
-  "version": "1.4.10",
+  "version": "1.4.11",
   "release_date": "2026-04-19",
-  "notes": "🎯 背包估值终于和市场 tab 对齐（优先全服聚合价，不再被查价 filter 污染）· ⚡ 进游戏进主城立刻自动同步最新行情，不用手动点刷新 · 🏠 首页文案优化",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.10/TorchPriceTracker-1.4.10.zip"
+  "notes": "⚡ 背包估值默认 10 秒自动刷新（可在资产页下拉调整 5s/10s/20s/60s/关闭）· 🔄 新增「强制同步」按钮：一键拉取最新全服行情 + 自愈数据 + 刷新背包，解决信标等物品价格对不上问题 · 右上角显示倒计时",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.11/TorchPriceTracker-1.4.11.zip"
 }
