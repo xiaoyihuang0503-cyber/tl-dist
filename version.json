@@ -1,6 +1,6 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.5",
   "release_date": "2026-04-19",
-  "notes": "⚔ HUD 大升级：Boss 徽章 + 副本名/K层一目了然 · 📈 全市场股票视图 · 🎯 副本识别更聪明",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.0/TorchPriceTracker-1.4.0.zip"
+  "notes": "💰 挂单参考价秒级同步真实行情 · 🎒 资产估值全面升级（追忆/石板/装备栏不再虚高）· 📈 收入曲线新增数字标尺 + 悬停明细 · 🔌 HUD 断线自动重连 · 🔥 火价 chip 同步速度翻倍",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.5/TorchPriceTracker-1.4.5.zip"
 }
