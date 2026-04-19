@@ -1,6 +1,6 @@
 {
-  "version": "1.4.13",
+  "version": "1.4.14",
   "release_date": "2026-04-19",
-  "notes": "⚡ 背包估值精度升级 · 信标和装备价格立刻对齐全服最新行情",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.13/TorchPriceTracker-1.4.13.zip"
+  "notes": "🧰 新增「一键生成诊断包」· 遇到问题点一下导出 zip 发给客服，1 分钟定位 · 启动失败时双击安装目录的「启动诊断.bat」也能用",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.14/TorchPriceTracker-1.4.14.zip"
 }
