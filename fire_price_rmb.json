@@ -12,6 +12,13 @@
       "server": "原初之火"
     },
     {
+      "title": "【担保】500游戏币【1元=7.14金币】",
+      "price_rmb": 70.0,
+      "coin_amount": 500,
+      "rate": 7.14,
+      "server": "原初之火"
+    },
+    {
       "title": "【担保】5,0000游戏币【1元=0.17金币】",
       "price_rmb": 300000.0,
       "coin_amount": 50000,
@@ -31,15 +38,8 @@
       "coin_amount": 10000,
       "rate": 6.67,
       "server": "原初之火"
-    },
-    {
-      "title": "【担保】500游戏币【1元=7.14金币】",
-      "price_rmb": 70.0,
-      "coin_amount": 500,
-      "rate": 7.14,
-      "server": "原初之火"
     }
   ],
-  "fetched_at": "2026-04-19T09:59:21Z",
+  "fetched_at": "2026-04-19T10:40:37Z",
   "source": "jiaoyimao"
 }
