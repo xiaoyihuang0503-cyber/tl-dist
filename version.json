@@ -1,6 +1,6 @@
 {
-  "version": "1.4.5",
+  "version": "1.4.6",
   "release_date": "2026-04-19",
-  "notes": "💰 挂单参考价秒级同步真实行情 · 🎒 资产估值全面升级（追忆/石板/装备栏不再虚高）· 📈 收入曲线新增数字标尺 + 悬停明细 · 🔌 HUD 断线自动重连 · 🔥 火价 chip 同步速度翻倍",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.5/TorchPriceTracker-1.4.5.zip"
+  "notes": "🎯 估值准度再升级：自动清理孤儿脏价格（蔽日 2000 等异常值）· 🛠️ 资产页新增「清空重识」按钮 · 物品悬停显示 × 剔除按钮 · 🗑 查价记录新增一键清空",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.6/TorchPriceTracker-1.4.6.zip"
 }
