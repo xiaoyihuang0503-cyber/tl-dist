@@ -1,6 +1,6 @@
 {
-  "version": "1.4.11",
+  "version": "1.4.12",
   "release_date": "2026-04-19",
-  "notes": "⚡ 背包估值默认 10 秒自动刷新（可在资产页下拉调整 5s/10s/20s/60s/关闭）· 🔄 新增「强制同步」按钮：一键拉取最新全服行情 + 自愈数据 + 刷新背包，解决信标等物品价格对不上问题 · 右上角显示倒计时",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.11/TorchPriceTracker-1.4.11.zip"
+  "notes": "📈 收入曲线股票化：分钟级实时采样 · 1H/6H/今日/7天/30天 tab 切换 · 鼠标悬停十字线查看任意时间点精确数值 · 最新点脉冲动画 · 数据源和顶部总身家完全对齐",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.12/TorchPriceTracker-1.4.12.zip"
 }
