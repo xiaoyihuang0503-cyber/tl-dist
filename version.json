@@ -1,6 +1,6 @@
 {
-  "version": "1.4.9",
+  "version": "1.4.10",
   "release_date": "2026-04-19",
-  "notes": "🚀 客户端内实时更新推送：不用重启，开着工具就能秒收到新版本提示 · SSE 长连接 + 5 分钟轮询 + 窗口回焦立即检测 · 彻底绕过浏览器缓存",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.9/TorchPriceTracker-1.4.9.zip"
+  "notes": "🎯 背包估值终于和市场 tab 对齐（优先全服聚合价，不再被查价 filter 污染）· ⚡ 进游戏进主城立刻自动同步最新行情，不用手动点刷新 · 🏠 首页文案优化",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.10/TorchPriceTracker-1.4.10.zip"
 }
