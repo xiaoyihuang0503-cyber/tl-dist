@@ -1,6 +1,6 @@
 {
-  "version": "1.4.12",
+  "version": "1.4.13",
   "release_date": "2026-04-19",
-  "notes": "📈 收入曲线股票化：分钟级实时采样 · 1H/6H/今日/7天/30天 tab 切换 · 鼠标悬停十字线查看任意时间点精确数值 · 最新点脉冲动画 · 数据源和顶部总身家完全对齐",
-  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.12/TorchPriceTracker-1.4.12.zip"
+  "notes": "🎯 信标/装备价格虚高彻底根治：修复本地缓存解析模块无脑覆盖全服权威价的 bug · 启动时自动从权威源强制重建本地价格库，升级后秒级恢复正常",
+  "download_url": "https://github.com/xiaoyihuang0503-cyber/tl-dist/releases/download/v1.4.13/TorchPriceTracker-1.4.13.zip"
 }
