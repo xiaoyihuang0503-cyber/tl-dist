@@ -19,6 +19,13 @@
       "server": "原初之火"
     },
     {
+      "title": "【担保】1000游戏币【1元=7.14金币】",
+      "price_rmb": 140.0,
+      "coin_amount": 1000,
+      "rate": 7.14,
+      "server": "原初之火"
+    },
+    {
       "title": "【担保】1,0000游戏币【1元=6.67金币】",
       "price_rmb": 1500.0,
       "coin_amount": 10000,
@@ -31,15 +38,8 @@
       "coin_amount": 500,
       "rate": 7.14,
       "server": "原初之火"
-    },
-    {
-      "title": "【担保】1000游戏币【1元=7.14金币】",
-      "price_rmb": 140.0,
-      "coin_amount": 1000,
-      "rate": 7.14,
-      "server": "原初之火"
     }
   ],
-  "fetched_at": "2026-04-20T10:13:57Z",
+  "fetched_at": "2026-04-20T11:43:39Z",
   "source": "jiaoyimao"
 }
