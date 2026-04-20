@@ -1,14 +1,21 @@
 {
   "ok": true,
-  "fire_price_rmb": 0.05,
-  "median_rate": 20.0,
-  "listings_count": 6,
+  "fire_price_rmb": 0.045,
+  "median_rate": 22.22,
+  "listings_count": 7,
   "sample_listings": [
     {
-      "title": "【担保】1,0000游戏币【1元=20.0金币】",
-      "price_rmb": 500.0,
+      "title": "【担保】1,0000游戏币【1元=22.22金币】",
+      "price_rmb": 450.0,
       "coin_amount": 10000,
-      "rate": 20.0,
+      "rate": 22.22,
+      "server": "原初之火"
+    },
+    {
+      "title": "【担保】1,0000游戏币【1元=22.22金币】",
+      "price_rmb": 450.0,
+      "coin_amount": 10000,
+      "rate": 22.22,
       "server": "原初之火"
     },
     {
@@ -19,10 +26,10 @@
       "server": "原初之火"
     },
     {
-      "title": "【担保】500游戏币【1元=20.0金币】",
-      "price_rmb": 25.0,
+      "title": "【担保】500游戏币【1元=7.14金币】",
+      "price_rmb": 70.0,
       "coin_amount": 500,
-      "rate": 20.0,
+      "rate": 7.14,
       "server": "原初之火"
     },
     {
@@ -31,15 +38,8 @@
       "coin_amount": 1000,
       "rate": 7.14,
       "server": "原初之火"
-    },
-    {
-      "title": "【担保】1,0000游戏币【1元=33.33金币】",
-      "price_rmb": 300.0,
-      "coin_amount": 10000,
-      "rate": 33.33,
-      "server": "原初之火"
     }
   ],
-  "fetched_at": "2026-04-20T06:06:29Z",
+  "fetched_at": "2026-04-20T08:25:31Z",
   "source": "jiaoyimao"
 }
