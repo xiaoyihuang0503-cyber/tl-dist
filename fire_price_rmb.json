@@ -5,17 +5,17 @@
   "listings_count": 7,
   "sample_listings": [
     {
-      "title": "【担保】2,0000游戏币【1元=74.07金币】",
-      "price_rmb": 270.0,
+      "title": "【担保】2,0000游戏币【1元=76.92金币】",
+      "price_rmb": 260.0,
       "coin_amount": 20000,
-      "rate": 74.07,
+      "rate": 76.92,
       "server": "原初之火"
     },
     {
-      "title": "【担保】1,0000游戏币【1元=71.43金币】",
-      "price_rmb": 140.0,
+      "title": "【担保】1,0000游戏币【1元=76.98金币】",
+      "price_rmb": 129.9,
       "coin_amount": 10000,
-      "rate": 71.43,
+      "rate": 76.98,
       "server": "原初之火"
     },
     {
@@ -40,6 +40,6 @@
       "server": "全服通用"
     }
   ],
-  "fetched_at": "2026-04-24T14:50:15Z",
+  "fetched_at": "2026-04-24T15:54:41Z",
   "source": "jiaoyimao"
 }
