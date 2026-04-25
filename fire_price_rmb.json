@@ -5,10 +5,10 @@
   "listings_count": 9,
   "sample_listings": [
     {
-      "title": "【担保】2,0000游戏币【1元=76.92金币】",
-      "price_rmb": 260.0,
+      "title": "【担保】2,0000游戏币【1元=83.33金币】",
+      "price_rmb": 240.0,
       "coin_amount": 20000,
-      "rate": 76.92,
+      "rate": 83.33,
       "server": "原初之火"
     },
     {
@@ -40,6 +40,6 @@
       "server": "原初之火"
     }
   ],
-  "fetched_at": "2026-04-25T05:27:20Z",
+  "fetched_at": "2026-04-25T06:50:35Z",
   "source": "jiaoyimao"
 }
