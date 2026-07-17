@@ -33,13 +33,13 @@
       "server": "全服通用"
     },
     {
-      "title": "【担保】500游戏币【1元=0.05金币】",
+      "title": "【担保】1000游戏币【1元=0.1金币】",
       "price_rmb": 9999.0,
-      "coin_amount": 500,
-      "rate": 0.05,
+      "coin_amount": 1000,
+      "rate": 0.1,
       "server": "原初之火"
     }
   ],
-  "fetched_at": "2026-07-17T04:19:07Z",
+  "fetched_at": "2026-07-17T06:30:56Z",
   "source": "jiaoyimao"
 }
