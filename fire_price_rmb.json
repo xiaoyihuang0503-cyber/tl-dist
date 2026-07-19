@@ -5,10 +5,10 @@
   "listings_count": 8,
   "sample_listings": [
     {
-      "title": "【担保】1,0000游戏币【1元=10.1金币】",
-      "price_rmb": 990.0,
+      "title": "【担保】1,0000游戏币【1元=11.24金币】",
+      "price_rmb": 890.0,
       "coin_amount": 10000,
-      "rate": 10.1,
+      "rate": 11.24,
       "server": "原初之火"
     },
     {
@@ -40,6 +40,6 @@
       "server": "全服通用"
     }
   ],
-  "fetched_at": "2026-07-19T12:32:29Z",
+  "fetched_at": "2026-07-19T14:08:03Z",
   "source": "jiaoyimao"
 }
