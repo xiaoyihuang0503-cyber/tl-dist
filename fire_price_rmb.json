@@ -12,9 +12,9 @@
       "server": "原初之火"
     },
     {
-      "title": "【担保】1000游戏币【1元=55.56金币】",
-      "price_rmb": 18.0,
-      "coin_amount": 1000,
+      "title": "【担保】5000游戏币【1元=55.56金币】",
+      "price_rmb": 90.0,
+      "coin_amount": 5000,
       "rate": 55.56,
       "server": "原初之火"
     },
@@ -40,6 +40,6 @@
       "server": "全服通用"
     }
   ],
-  "fetched_at": "2026-10-22T06:51:19Z",
+  "fetched_at": "2026-10-22T12:38:31Z",
   "source": "jiaoyimao"
 }
