@@ -19,9 +19,9 @@
       "server": "全服通用"
     },
     {
-      "title": "【担保】5,0000游戏币【1元=35.71金币】",
-      "price_rmb": 1400.0,
-      "coin_amount": 50000,
+      "title": "【担保】1,0000游戏币【1元=35.71金币】",
+      "price_rmb": 280.0,
+      "coin_amount": 10000,
       "rate": 35.71,
       "server": "原初之火"
     },
@@ -40,6 +40,6 @@
       "server": "原初之火"
     }
   ],
-  "fetched_at": "2026-11-21T16:25:05Z",
+  "fetched_at": "2026-11-21T21:45:09Z",
   "source": "jiaoyimao"
 }
